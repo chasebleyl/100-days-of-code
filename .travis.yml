@@ -1,0 +1,8 @@
+language: python
+python:
+- 3.6
+script:
+- python skip-test.py
+deploy:
+  provider: s3
+  bucket: "code.100daysof.chasebleyl.com"

@@ -20,4 +20,6 @@ Long term, I would love to learn NoSQL to the point I can be confident in a comp
 
 In order to gain some experience and exposure with NoSQL, I am writing our transaction data (completion of tasks) to both our MySQL database in RDS and to a new DynamoDB table. I formatted the DynamoDB table to mimic what our analytics portal will need, which should help for lightning fast reads. So far I am really excited in this setup - I think it will make life much easier once we start building out that dashboard.
 
+I am also realizing that the caching from Cloudfront might actually be hurting my website. Since my website's "data" is really just this Log file, it takes hours for Cloudfront to update their edge locations with updates from my S3 bucket. As this is really only a log and requires now client interaction, I might as well remove the Cloudfront distribution, losing the certificate but allowing quick updates to my log data. I'll try to do that tomorrow morning for tomorrow's work!
+
 I will be traveling this weekend up to Idaho, so there is a good chance that I'll have to read instead of code.
