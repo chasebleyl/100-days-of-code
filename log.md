@@ -23,3 +23,8 @@ In order to gain some experience and exposure with NoSQL, I am writing our trans
 I am also realizing that the caching from Cloudfront might actually be hurting my website. Since my website's "data" is really just this Log file, it takes hours for Cloudfront to update their edge locations with updates from my S3 bucket. As this is really only a log and requires now client interaction, I might as well remove the Cloudfront distribution, losing the certificate but allowing quick updates to my log data. I'll try to do that tomorrow morning for tomorrow's work!
 
 I will be traveling this weekend up to Idaho, so there is a good chance that I'll have to read instead of code.
+
+### [R1D5](#r1-d5)
+Opened up Travis-CI work, trying to work with encrypted variables in my config file. I was able to encrypt the access key and secret access key via `travis encrypt access_key_id=THIS_ID --add`, and then moving that newly created environment variable inside my deploy section. I got a weird `Aws::S3::Errors::AuthorizationHeaderMalformed` error from Travis-CI, which makes me think that the secret key isn't correct (the access key is, but I can't see the decrypted secret key in the console). I have reached out the Travis-CI support to see if they have any insight on what I am doing wrong.
+
+I also removed my Cloudfront distribution and am reverting back to an S3 hosted bucket.
