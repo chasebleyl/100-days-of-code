@@ -63,3 +63,9 @@ I need to become more familiar with Unit Tests and working within unit testing f
 
 Todo: I need to implement auto-scroll based on the URL hash on my site.
 
+### [R1D10](#r1-d10)
+Went off on a random project today, but it's one that I have been meaning to get to for quite a while! I am building an image processor that can analyze trail cam photos for game (Elk and Deer) and also extract key quantitative information such as date and time. Later, I will correlate that will weather station data and try to study big game movement patterns based on the images and the camera data.
+
+Today I built the majority of the image processor part. I used the Serverless framework (LOVE this framework) to use S3, Lambda, and Rekognition. Whenever an image is uploaded to an S3 bucket, a Lambda function is triggered which processes that image using AWS Rekognition. [You can see my work so far here](https://github.com/chasebleyl/process-trail-cam-photos). Next, I need to create a DynamoDB table to store that data for quick and easy extraction. Then, finally, I need to create a front-end interface where images can be uploaded to that bucket and then automatically kick off this whole process.
+
+I spent a little more time on this today than I should have, but I just couldn't stop once I got rolling! I can't wait to build out these other components.
