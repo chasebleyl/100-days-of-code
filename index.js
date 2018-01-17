@@ -1,6 +1,5 @@
 function getMarkdown() {
 	var reader = new FileReader();
-	console.log("We in this");
 	jQuery.get('log.md', function(data){
 		insertMarkdown(data);
 	});
