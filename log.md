@@ -28,3 +28,34 @@ I will be traveling this weekend up to Idaho, so there is a good chance that I'l
 Opened up Travis-CI work, trying to work with encrypted variables in my config file. I was able to encrypt the access key and secret access key via `travis encrypt access_key_id=THIS_ID --add`, and then moving that newly created environment variable inside my deploy section. I got a weird `Aws::S3::Errors::AuthorizationHeaderMalformed` error from Travis-CI, which makes me think that the secret key isn't correct (the access key is, but I can't see the decrypted secret key in the console). I have reached out the Travis-CI support to see if they have any insight on what I am doing wrong.
 
 I also removed my Cloudfront distribution and am reverting back to an S3 hosted bucket.
+
+### [R1D6](#r1-d6)
+Remote today, so I read from "Clean Code: A Handbook of Agile Software Craftmanship" by Robert C Martin. I specifically read about unit testing and test driven development (TDD). I have been working primarily on web APIs, and I have always justified not writing tests due to the complexity surrounding HTTP protocols and permissions, but reading these chapters on unit tests and previously functions make me realize these are poor excuses. My code should be better organized so that code is broken up into simple, readable chunks that are easily tested. Through Test Driven Development, the tests would be built before the code is ever written. What I have today is a product of not starting with a test driven mindset to development.
+
+Notes and highlights:
+*Three Laws of TDD*
+1. You may not write production code until you have written a failing unit test.
+2. You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
+3. You may not write more production code than is sufficient to pass the currently failing test.
+
+` If you don't keep your tests clean, you will lose them. And without them, you lose the very thing that keeps your production code flexible. ... If you have tests, you do not fear making changes to the code!
+
+*F.I.R.S.T. - Five rules for clean tests*
+*F*ast. Tests should be fast. If they don't run quickly, you won't want to run them.
+*I*ndependent. Tests should not depend on each other. You should be able to run any test you like and in whatever order you like.
+*R*epeatable. Tests should be repeatable in any environment (laptop, desktop, Windows, Mac, internet, no internet). If you can't run them, you won't use them.
+*S*elf-validating. Tests should have a boolean output - they should pass or fail.
+*T*imely. Tests should be written JUST before the production code.
+
+### [R1D7](#r1-d7)
+Still remote, so I continued reading from "Clean Code" by Robert C Martin. Today, I read a bit on classes. I SUCK at solid clean class development. I get function and variable sprawl when I should be taking the time to thoughtfully design and implement classes to encapsulate the responsibilities that my code is trying to perform. Reading this chapter helped me recognize that I am weak in OOP, and I decided that I will jump to "Clean Architecture" by the same author to brush up on those principles.
+
+Notes and highlights:
+` We want our systems to be composed of many small classes, not a few large ones. Each small class encapsulates a single responsibility (SRP), has a single reason to change, and collaborates with a few others to achieve the desired system behaviors.
+
+### [R1D8](#r1-d8)
+Still remote, so I continued reading from "Clean Code" by Robert C Martin. I finished the chapter on classes, and looking through a couple of his example on refactoring large function segments into multiple classes. I need to spend some time doing exercises like these, and I think this would be a valuable use of my future #100DaysOfCode time to build up this kind of expertise.
+
+### [R1D9](#r1-d9)
+Back with a decent internet connection! Decided to do some practice with TDD by busting out the Bowling Game Kata. 
+
