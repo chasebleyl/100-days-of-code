@@ -61,3 +61,5 @@ Back with a decent internet connection! Decided to do some practice with TDD by 
 
 I need to become more familiar with Unit Tests and working within unit testing frameworks. I have been severely lacking in this category and I believe I could add a lot of value and quality to my work by taking this more seriously.
 
+Todo: I need to implement auto-scroll based on the URL hash on my site.
+
