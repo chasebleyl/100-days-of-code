@@ -57,5 +57,7 @@ Notes and highlights:
 Still remote, so I continued reading from "Clean Code" by Robert C Martin. I finished the chapter on classes, and looking through a couple of his example on refactoring large function segments into multiple classes. I need to spend some time doing exercises like these, and I think this would be a valuable use of my future #100DaysOfCode time to build up this kind of expertise.
 
 ### [R1D9](#r1-d9)
-Back with a decent internet connection! Decided to do some practice with TDD by busting out the Bowling Game Kata. 
+Back with a decent internet connection! Decided to do some practice with TDD by busting out the Bowling Game Kata. My finished kata has been uploaded to [Github](https://github.com/chasebleyl/100-days-of-code/tree/master/tdd/katas/bowling_game).
+
+I need to become more familiar with Unit Tests and working within unit testing frameworks. I have been severely lacking in this category and I believe I could add a lot of value and quality to my work by taking this more seriously.
 
