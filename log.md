@@ -69,3 +69,13 @@ Went off on a random project today, but it's one that I have been meaning to get
 Today I built the majority of the image processor part. I used the Serverless framework (LOVE this framework) to use S3, Lambda, and Rekognition. Whenever an image is uploaded to an S3 bucket, a Lambda function is triggered which processes that image using AWS Rekognition. [You can see my work so far here](https://github.com/chasebleyl/process-trail-cam-photos). Next, I need to create a DynamoDB table to store that data for quick and easy extraction. Then, finally, I need to create a front-end interface where images can be uploaded to that bucket and then automatically kick off this whole process.
 
 I spent a little more time on this today than I should have, but I just couldn't stop once I got rolling! I can't wait to build out these other components.
+
+
+### [R1D11](#r1-d11)
+Did the [BowlingGame Kata again](https://github.com/chasebleyl/100-days-of-code/tree/master/tdd/katas/bowling_game_2). This time I finished in about 20 minutes given the test cases and checking once for some guidance when I got stuck.
+
+I also read some more from "Clean Architecture" about the balance between *behavior* and *structure*. Often, *structure* is overlooked as business requirements require that *behavior*, or application function, is addressed first. This creates a massive void in simplicity and causes enormous technical debt as the application matures.
+
+I loved this quote from President Eisenhower: "I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent." This quote and reading from this chapter encouraged my capstone colleague and I to address some core structural issues with our mobile app and address the scope of our project. By focusing on the important aspects now, we hope to be able to move quickly and effeciently later.
+
+Headed out of town this afternoon again. Should be a lot of time for reading. I will update when I can!
