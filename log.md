@@ -89,6 +89,6 @@ I need to get better at writing unit tests.
 Read some more about object oriented programming and did the Bowling Game Kata again. I need to find a couple other Katas I can do when I am remote like I am today. I did pretty well, but it is probably time to mix it up. Headed back home tomorrow, hopefully I can find an exercise or two to practice when I am offline.
 
 ### [R1D14](#r1-d14)
-Thanks to a suggestion from Andy Mockler, I found a great site to do some practice driven by unit tests at [exercism.io](exercism.io). I [completed 5 exercises](exercism.io/chasebleyl) and really like it! They give you all of the tests before you start so I'm not getting much practice writing tests, but it is good to be writing my code based off those tests.
+Thanks to a suggestion from Andy Mockler, I found a great site to do some practice driven by unit tests at [exercism.io](http://exercism.io). I [completed 5 exercises](http://exercism.io/chasebleyl) and really like it! They give you all of the tests before you start so I'm not getting much practice writing tests, but it is good to be writing my code based off those tests.
 
 Exercism is really light on bandwidth which is perfect when I am out of town. I am going to use this as the base of my practice when I am up here and continue with my personal projects when I am home.
