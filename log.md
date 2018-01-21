@@ -79,3 +79,11 @@ I also read some more from "Clean Architecture" about the balance between *behav
 I loved this quote from President Eisenhower: "I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent." This quote and reading from this chapter encouraged my capstone colleague and I to address some core structural issues with our mobile app and address the scope of our project. By focusing on the important aspects now, we hope to be able to move quickly and effeciently later.
 
 Headed out of town this afternoon again. Should be a lot of time for reading. I will update when I can!
+
+### [R1D12](#r1-d12)
+Remote for the weekend, more reading from "Clean Architecture" by Robert C Martin. I read about structured programming and object oriented programming. I enjoyed this quote about structured programming; "... software is like a science. We show correctness by failing to prove incorrectness, despite our best efforts." Test Driven Development forces you to write tests before you write code. Thus, when we add more code, our test suite simply ensures that our code is without bugs that we have already created. With this mindset, your code will only ever be as good as your tests.
+
+I need to get better at writing unit tests.
+
+### [R1D13](#r1-d13)
+Read some more about object oriented programming and did the Bowling Game Kata again. I need to find a couple other Katas I can do when I am remote like I am today. I did pretty well, but it is probably time to mix it up. Headed back home tomorrow, hopefully I can find an exercise or two to practice when I am offline.
