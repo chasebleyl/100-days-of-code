@@ -8,7 +8,7 @@ function getMarkdown() {
 function updateHtml(html) {
 	var day = 1;
 	newHtml = html.replace(/<a href=/g, function() {
-		newAnchor = '<a name="#r1-d' + day.toString() + '" href=';
+		newAnchor = '<a name="r1-d' + day.toString() + '" href=';
 		day++;
 		return newAnchor;
 	});
