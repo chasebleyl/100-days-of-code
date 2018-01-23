@@ -6,8 +6,7 @@ function getMarkdown() {
 }
 
 function updateHtml(html) {
-	anchors = html.getElementsByTagName('a');
-	console.log(anchors);
+	console.log(typeof(html));
 	return html;
 }
 
