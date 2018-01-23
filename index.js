@@ -6,8 +6,13 @@ function getMarkdown() {
 }
 
 function updateHtml(html) {
-	console.log(typeof(html));
-	return html;
+	var day = 1;
+	newHtml = html.replace(/<a href=/g, function() {
+		newAnchor = '<a name="#r1-d' + day.toString() + '" href=';
+		day++;
+		return newAnchor;
+	});
+	return newHtml;
 }
 
 function insertMarkdown(markdown) {
