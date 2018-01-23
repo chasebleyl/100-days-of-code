@@ -2,7 +2,6 @@ function getMarkdown() {
 	var reader = new FileReader();
 	jQuery.get('log.md', function(data){
 		insertMarkdown(data);
-		jumpToAnchor();
 	});
 }
 
@@ -21,6 +20,7 @@ function insertMarkdown(markdown) {
 	html = converter.makeHtml(markdown);
 	fixedHtml = updateHtml(html);
 	document.getElementById("markdown-content").innerHTML = fixedHtml;
+	jumpToAnchor();
 }
 
 $(document).ready(function() {
@@ -28,7 +28,8 @@ $(document).ready(function() {
 });
 
 function jumpToAnchor() {
+	console.log("Jump to anchor.");
 	if (window.location.hash) {
-		location.hash = window.location.hash
+		location.hash = window.location.hash;
 	}
 }
