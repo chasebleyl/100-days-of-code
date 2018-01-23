@@ -5,6 +5,14 @@ function getMarkdown() {
 	});
 }
 
+function insertMarkdown(markdown) {
+	var converter = new showdown.Converter();
+	html = converter.makeHtml(markdown);
+	fixedHtml = updateHtml(html);
+	document.getElementById("markdown-content").innerHTML = fixedHtml;
+	jumpToAnchor();
+}
+
 function updateHtml(html) {
 	var day = 1;
 	newHtml = html.replace(/<a href=/g, function() {
@@ -15,22 +23,12 @@ function updateHtml(html) {
 	return newHtml;
 }
 
-function insertMarkdown(markdown) {
-	var converter = new showdown.Converter();
-	html = converter.makeHtml(markdown);
-	fixedHtml = updateHtml(html);
-	document.getElementById("markdown-content").innerHTML = fixedHtml;
-	jumpToAnchor();
+function jumpToAnchor() {
+	if (window.location.hash) {
+		window.location = window.location.hash;
+	}
 }
 
 $(document).ready(function() {
 	getMarkdown();
 });
-
-function jumpToAnchor() {
-	console.log("Jump to anchor.");
-	if (window.location.hash) {
-		console.log(window.location.hash);
-		window.location = window.location.hash;
-	}
-}

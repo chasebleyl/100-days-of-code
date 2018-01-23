@@ -96,4 +96,6 @@ Exercism is really light on bandwidth which is perfect when I am out of town. I 
 ### [R1D15](#r1-d15)
 Finally got a response from Travis-CI and figured out how to properly configure it! My S3 bucket is automatically updated whenever I push to master! Glad that is configured - I was getting tired of manually uploading to S3!
 
+Had some time while watching The Office tonight so I went ahead and configured my log page to jump to whatever hash is included in the URL. Since I am rendering the Markdown HTML after page load the browser can't use the anchor tags like it normally would. I had to manually insert the name attributes on those anchor tags, and then manually invoke the location of the DOM to go to whatever hash is found in the URL. Super hacky, but finally working!
 
+One of these days I'll do a bit more styling. In an oddly nerdy way, I really like the plain text look of my website. It looks a bit cheap, however, so I'll have to mess with the font and some other things.
