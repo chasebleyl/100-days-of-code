@@ -5,11 +5,17 @@ function getMarkdown() {
 	});
 }
 
+function updateHtml(html) {
+	anchors = html.getElementsByTagName('a');
+	console.log(anchors);
+	return html;
+}
+
 function insertMarkdown(markdown) {
 	var converter = new showdown.Converter();
 	html = converter.makeHtml(markdown);
-	console.log(html);
-	document.getElementById("markdown-content").innerHTML = html;
+	fixedHtml = updateHtml(html);
+	document.getElementById("markdown-content").innerHTML = fixedHtml;
 }
 
 $(document).ready(function() {
