@@ -30,6 +30,7 @@ $(document).ready(function() {
 function jumpToAnchor() {
 	console.log("Jump to anchor.");
 	if (window.location.hash) {
-		location.hash = window.location.hash;
+		console.log(window.location.hash);
+		window.location.hash = window.location.hash;
 	}
 }
