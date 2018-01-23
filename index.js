@@ -2,6 +2,7 @@ function getMarkdown() {
 	var reader = new FileReader();
 	jQuery.get('log.md', function(data){
 		insertMarkdown(data);
+		jumpToAnchor();
 	});
 }
 
@@ -25,3 +26,9 @@ function insertMarkdown(markdown) {
 $(document).ready(function() {
 	getMarkdown();
 });
+
+function jumpToAnchor() {
+	if (window.location.hash) {
+		location.hash = window.location.hash
+	}
+}
