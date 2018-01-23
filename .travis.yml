@@ -9,7 +9,6 @@ deploy:
   secret_access_key:
     secure: LdtPaRmr+kPKH66WV4wG+QP0ZYmX8OgG5/gzrA/pz5GWteWkmpFCM6ICpD8BES9svslf/We7b20s4x17C67IlgcNyL8MjNGU0Rs0DYyeyAk8N7I02dTayek31BvuHD2uboRqWxh1iAYI1QNJHaPy5M9sI4LwyNw4HF92sTHEqwjJP8nlsHiy1ZYtmhiZokyl8tzYbtaoXpFZ/DCkFiJNZ7rB81+5sPBtFbdkwQ7DpSXj6NIxOxrn3Bs3oId/4BkEsuDdRxBjl/6YsV1PcSiPj5YdxfOGHyqs4mpJqzTRmt6RyILi6Qbp+vMTZAQBlNUSvgI4rVwwklAXAQOE4csWeVhVQuf5WOxcrD0Sp4/azxD2NrRIqnyFgSJcsKAwaNDChh7k3kR1fsgHUGonGkPkwT2poYJ16yJWbX93tIfvrpxfx9H+DrcLKOB4+oxS6JnnKRwM3AYeqb6vhGitDukUr9rR2DeW42RJ411l4EXWzOKXNrhXffQ2FV0zAd8zulca4c+NL38unhZ7M+fwDPmfZ/djpJs4/N/+/rSbl4xAW07Z2VzHVrex65YYYO5/yF8AYXnrQidk6Yop+xaLj+PuORewd89fnqzg7yfkaTL7zFnNPfQKnm5n37qyWsO1vL+iCs6CwBv9Uk4rDmnHfEdEL58d+9XTTRGsTgXFTR18/9E=
   bucket: code.100daysof.chasebleyl.com
-  local-dir: "./"
-  acl: ''
   on:
+    branch: master
     repo: chasebleyl/100-days-of-code
