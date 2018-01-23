@@ -92,3 +92,8 @@ Read some more about object oriented programming and did the Bowling Game Kata a
 Thanks to a suggestion from Andy Mockler, I found a great site to do some practice driven by unit tests at [exercism.io](http://exercism.io). I [completed 5 exercises](http://exercism.io/chasebleyl) and really like it! They give you all of the tests before you start so I'm not getting much practice writing tests, but it is good to be writing my code based off those tests.
 
 Exercism is really light on bandwidth which is perfect when I am out of town. I am going to use this as the base of my practice when I am up here and continue with my personal projects when I am home.
+
+### [R1D15](#r1-d15)
+Finally got a response from Travis-CI and figured out how to properly configure it! My S3 bucket is automatically updated whenever I push to master! Glad that is configured - I was getting tired of manually uploading to S3!
+
+

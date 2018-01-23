@@ -8,6 +8,7 @@ function getMarkdown() {
 function insertMarkdown(markdown) {
 	var converter = new showdown.Converter();
 	html = converter.makeHtml(markdown);
+	console.log(html);
 	document.getElementById("markdown-content").innerHTML = html;
 }
 
