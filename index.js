@@ -15,8 +15,8 @@ function insertMarkdown(markdown) {
 
 function updateHtml(html) {
 	var day = 1;
-	newHtml = html.replace(/<a href=/g, function() {
-		newAnchor = '<a name="r1-d' + day.toString() + '" href=';
+	newHtml = html.replace(/<a href="#r1-d/g, function() {
+		newAnchor = '<a name="r1-d' + day.toString() + '" href="#r1-d';
 		day++;
 		return newAnchor;
 	});
