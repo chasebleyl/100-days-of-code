@@ -99,3 +99,7 @@ Finally got a response from Travis-CI and figured out how to properly configure 
 Had some time while watching The Office tonight so I went ahead and configured my log page to jump to whatever hash is included in the URL. Since I am rendering the Markdown HTML after page load the browser can't use the anchor tags like it normally would. I had to manually insert the name attributes on those anchor tags, and then manually invoke the location of the DOM to go to whatever hash is found in the URL. Super hacky, but finally working!
 
 One of these days I'll do a bit more styling. In an oddly nerdy way, I really like the plain text look of my website. It looks a bit cheap, however, so I'll have to mess with the font and some other things.
+
+### [R1D16](#r1-d16)
+Not a very productive day today. I tried to make some unit tests for the OCR app for trail cams that I created last week but it went poorly fast. It would have been much easier to start with the tests than to begin them half way through. I need to be more serious about TDD!
+
