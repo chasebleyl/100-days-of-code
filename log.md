@@ -106,3 +106,12 @@ Not a very productive day today. I tried to make some unit tests for the OCR app
 ### [R1D17](#r1-d17)
 Rough day today! Motivation was super low - probably due to a lack of sleep. I got my hour in doing edits to my log and to my personal site (chasebleyl.com). Glad I did something - hopefully tomorrow and the rest of the week will be more productive.
 
+### [R1D18](#r1-d18)
+Today I fixed my unit tests! After a few slow and sluggish days I realized that I wasn't storing a JSON object but a string for my test data. I quickly printed out some JSON objects, stored those, and began writing tests.
+
+I was able to write four tests to identify which text we want to parse out of an array of text. Next up we will be manipulating that text string to extract our four key data components: temperature, date, time, and camera. Once we can accurately extract that data, it will be time to write to DynamoDB!
+
+Glad I had a good morning. After a rough couple of days it feels good to get my confidence back with some sweet success.
+
+[Commit from today's work](https://github.com/chasebleyl/process-trail-cam-photos/commit/950c7b577d38069de837dfee4fa9f152058826ea)
+
