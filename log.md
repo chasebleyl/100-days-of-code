@@ -103,3 +103,6 @@ One of these days I'll do a bit more styling. In an oddly nerdy way, I really li
 ### [R1D16](#r1-d16)
 Not a very productive day today. I tried to make some unit tests for the OCR app for trail cams that I created last week but it went poorly fast. It would have been much easier to start with the tests than to begin them half way through. I need to be more serious about TDD!
 
+### [R1D17](#r1-d17)
+
+
