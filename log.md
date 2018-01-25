@@ -104,5 +104,5 @@ One of these days I'll do a bit more styling. In an oddly nerdy way, I really li
 Not a very productive day today. I tried to make some unit tests for the OCR app for trail cams that I created last week but it went poorly fast. It would have been much easier to start with the tests than to begin them half way through. I need to be more serious about TDD!
 
 ### [R1D17](#r1-d17)
-
+Rough day today! Motivation was super low - probably due to a lack of sleep. I got my hour in doing edits to my log and to my personal site (chasebleyl.com). Glad I did something - hopefully tomorrow and the rest of the week will be more productive.
 
