@@ -115,3 +115,9 @@ Glad I had a good morning. After a rough couple of days it feels good to get my 
 
 [Commit from today's work](https://github.com/chasebleyl/process-trail-cam-photos/commit/950c7b577d38069de837dfee4fa9f152058826ea)
 
+### [R1D19](#r1-d19)
+A ton of work today for my employer, couldn't get away to code myself. Had to do an EC2 implementation of a CherryPy API. Ran into a bunch of random problems. Will be implementing a Dev/QA version early next week.
+
+### [R1D20](#r1-d20)
+Did some Exercism Katas. Got stuck on some advanced cases of the Bowling Game Kata, including validating improper bowls on the 10th frame and improper spares. Need to work through that logic a little better.
+
