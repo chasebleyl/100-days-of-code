@@ -121,3 +121,6 @@ A ton of work today for my employer, couldn't get away to code myself. Had to do
 ### [R1D20](#r1-d20)
 Did some Exercism Katas. Got stuck on some advanced cases of the Bowling Game Kata, including validating improper bowls on the 10th frame and improper spares. Need to work through that logic a little better.
 
+### [R1D21](#r1-d21)
+Wrote some unit tests for my photo transcription service. Still slow-going as I am working out how the logic will process the images, but we are getting there slowly.
+
