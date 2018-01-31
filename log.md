@@ -124,3 +124,11 @@ Did some Exercism Katas. Got stuck on some advanced cases of the Bowling Game Ka
 ### [R1D21](#r1-d21)
 Wrote some unit tests for my photo transcription service. Still slow-going as I am working out how the logic will process the images, but we are getting there slowly.
 
+### [R1D22](#r1-d22)
+Kept working on the Bowling Game Kata with little success. That one is a doozy that I'm not sure I'm gonna crack. Too much other stuff going on.
+
+### [R1D23](#r1-d23)
+Did a ton of work on the photo processing service. I am up to 58 unit tests on my response parsing service. Next, I need to write that parsed response data to DynamoDB, and then we are ready for a React Front end. Getting stuff done!
+
+Had an interesting issue come up when [Google shut down my search](https://twitter.com/chasebleyl/status/958528833774211072). Logged a nice little Twitter rant about that. I have become ridiculously dependent on Google.
+
