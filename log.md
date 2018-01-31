@@ -132,3 +132,10 @@ Did a ton of work on the photo processing service. I am up to 58 unit tests on m
 
 Had an interesting issue come up when [Google shut down my search](https://twitter.com/chasebleyl/status/958528833774211072). Logged a nice little Twitter rant about that. I have become ridiculously dependent on Google.
 
+### [R1D24](#r1-d24)
+Photo transcription service work today! The data extraction and storage components are basically done. I setup a DynamoDB table to store the data and hooked it up to my Lambda function. It is writing properly.
+
+I still need to enable multiple uploads of the same filename. Currently, S3 is just updating the file, and DynamoDB will update the record as well with the same filename. Need to fix that so it creates a unique filename. Could be as easy as listing all the bucket files and then looking up that filename.
+
+Pretty soon I'll be jumping onto the frontend! There is a lot I can do with this frontend - I'm excited to see where it goes in the next 75 days.
+
