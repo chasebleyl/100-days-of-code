@@ -139,3 +139,8 @@ I still need to enable multiple uploads of the same filename. Currently, S3 is j
 
 Pretty soon I'll be jumping onto the frontend! There is a lot I can do with this frontend - I'm excited to see where it goes in the next 75 days.
 
+### [R1D25](#r1-d25)
+Started work on the React app! Found a [pre-built React authentication template](https://github.com/ganezasan/react-cognito-auth) built for AWS Cognito and got my User Pool setup today. I created a User Pool and hooked it all up! Got caught up for a minute on running React on Windows, but got around it soon enough and everything seems to be working fine.
+
+Next, I'll be stripping out some components and learning how to build my own React components! Excited to get into React.
+
