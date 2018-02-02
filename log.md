@@ -144,3 +144,9 @@ Started work on the React app! Found a [pre-built React authentication template]
 
 Next, I'll be stripping out some components and learning how to build my own React components! Excited to get into React.
 
+### [R1D26](#r1-d26)
+Learned a bit about Redux today. The authentication template that I used yesterday uses Redux to handle the authentication functionality, and I figured it was a good excuse to learn Redux.
+
+I went through the majority of the basics tutorial and really nailed down the core concepts of Actions, Reducers, and the Store. I'm excited to finish the tutorial tomorrow and begin dissecting Redux in my current authentication app.
+
+
