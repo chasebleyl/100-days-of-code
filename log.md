@@ -149,4 +149,11 @@ Learned a bit about Redux today. The authentication template that I used yesterd
 
 I went through the majority of the basics tutorial and really nailed down the core concepts of Actions, Reducers, and the Store. I'm excited to finish the tutorial tomorrow and begin dissecting Redux in my current authentication app.
 
+### [R1D27](#r1-d27)
+Finished the Redux tutorial. Tried for a while to configure Redux with React but was getting errors trying to start the React app. Found a couple of example that I am going to use tomorrow to base my app off of to get it up and running.
+
+Once I've got that sample app going, I'm going to take apart my authenticated app to really understand how they implemented Redux, and how I can build on top of that store.
+
+
+
 
