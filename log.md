@@ -154,6 +154,11 @@ Finished the Redux tutorial. Tried for a while to configure Redux with React but
 
 Once I've got that sample app going, I'm going to take apart my authenticated app to really understand how they implemented Redux, and how I can build on top of that store.
 
+### [R1D28](#r1-d28)
+The Super Bowl delayed my coding, but I got it done! I finished up the basic Redux tutorial and got the [Todo app running properly with React](https://github.com/chasebleyl/redux-todo-tutorial). Thankfully, someone had incorporated that logic into a Create-React-App project, so I just had to follow their code and resolve the differences.
 
+Tomorrow I'll be dissecting the authentication app I pulled down to understand how Redux is implemented. Once I get a grasp on how they implemented Redux, I can then begin designing the store to fit the needs of the photo transcription.
+
+The main components necessary for this app will be allowing a user to upload an image, verify that the image has a unique name, change the name of the image if it doesn't, and then upload that image to S3. All transcription is handled by the backend once it is uploaded (Serverless tech is awesome). Eventually, I am going to want to add functionality to view images and their associated data, but that is way down the line.
 
 
