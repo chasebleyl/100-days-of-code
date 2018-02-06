@@ -161,4 +161,11 @@ Tomorrow I'll be dissecting the authentication app I pulled down to understand h
 
 The main components necessary for this app will be allowing a user to upload an image, verify that the image has a unique name, change the name of the image if it doesn't, and then upload that image to S3. All transcription is handled by the backend once it is uploaded (Serverless tech is awesome). Eventually, I am going to want to add functionality to view images and their associated data, but that is way down the line.
 
+### [R1D29](#r1-d29)
+Went through the authentication app to dissect Redux. I realized that this template uses a ton of libraries which is probably why I was so overwhelmed when I first downloaded the template.
+
+I'm trying to refactor the main authentication reducer to be "pure" Redux, just to gauge my knowledge and ensure that I understand all of these components. This is super slow work, but I think it is valuable to ensure my understanding of these components, the state, and how authentication is working.
+
+This could easily take me 10-20 days. I'll have a better idea of how large a task this is over the next two or three days. I'm guessing it will take me a week to get past the learning curve with Redux!
+
 
