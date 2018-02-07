@@ -168,4 +168,10 @@ I'm trying to refactor the main authentication reducer to be "pure" Redux, just 
 
 This could easily take me 10-20 days. I'll have a better idea of how large a task this is over the next two or three days. I'm guessing it will take me a week to get past the learning curve with Redux!
 
+### [R1D30](#r1-d30)
+A rough day working with Redux! I redid the reducers and actions for the authentication template to a "standard" Redux approach, but something broke. This app incorporates a library called `redux-saga` for the actual authentication logic, and I am guessing that is where it blew up. Mapping the authentication state to that "saga" has been difficult since I didn't set it up.
+
+Part of me wonders if I ought to look for another template, or if I should try to build a Cognito authentication library for React/Redux myself. I'm going to do some research tomorrow to see where my time is best spent. I could easily just accept the current authentication logic, but with this much dedicated time, it might be worth the effort in building my own authentication library!
+
+Hopefully I will have more progress to report in the next couple of days.
 
