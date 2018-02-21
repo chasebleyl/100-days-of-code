@@ -175,3 +175,9 @@ Part of me wonders if I ought to look for another template, or if I should try t
 
 Hopefully I will have more progress to report in the next couple of days.
 
+### [R1D31](#r1-d31)
+It has been a long time! I had to take care of some personal stuff, but I am ready to jump back into the 100 day challenge! I am a little bummed because I'm not on track to finish with the semester, but I'm happy to hopefully be back to coding on a more consistent basis.
+
+After a lot of study and conversations with people over the last several weeks, I decided that I don't need to delve into Redux as much as I thought. I found a great authentication tutorial from [Dhruv Kumar Jha](https://dhruvkumarjha.com/user-authentication-using-aws-cognito/setting-up-the-frontend) on setting up a basic React app with Cognito authentication. I tried it out with the user pool I had created a few weeks ago and it seems to be working fine.
+
+I am liking this approach. This will enable me to setup a file upload form and build the upload components into this app. Once this is all setup, I'll then be able to build some advanced features surrounding the image processing.
