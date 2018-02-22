@@ -181,3 +181,10 @@ It has been a long time! I had to take care of some personal stuff, but I am rea
 After a lot of study and conversations with people over the last several weeks, I decided that I don't need to delve into Redux as much as I thought. I found a great authentication tutorial from [Dhruv Kumar Jha](https://dhruvkumarjha.com/user-authentication-using-aws-cognito/setting-up-the-frontend) on setting up a basic React app with Cognito authentication. I tried it out with the user pool I had created a few weeks ago and it seems to be working fine.
 
 I am liking this approach. This will enable me to setup a file upload form and build the upload components into this app. Once this is all setup, I'll then be able to build some advanced features surrounding the image processing.
+
+### [R1D32](#r1-d32)
+Today was a capstone work day. I tried to get away from it to do some personal work for #100DaysOfCode, or even some research for work, but I just couldn't put it down.
+
+Our capstone project is being implemented in a store this week, so it has been a little busy. We had some last minute changes to data, so I had to create and use some stored procedures in MySQL in order to manage those changes. I have been diving deep into stored procedures and functions in MySQL the last couple of weeks, and it has been amazing. My work with procedures, functions, and triggers have enabled me to re-work our transaction recording system which should help us a ton when we build out our data analysis API.
+
+I am hoping to get to work on more React stuff tomorrow, but there is a good chance that I am absorbed by my capstone once again. I am having a blast! I just don't want to lose sight of this personal project.
