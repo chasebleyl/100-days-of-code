@@ -188,3 +188,12 @@ Today was a capstone work day. I tried to get away from it to do some personal w
 Our capstone project is being implemented in a store this week, so it has been a little busy. We had some last minute changes to data, so I had to create and use some stored procedures in MySQL in order to manage those changes. I have been diving deep into stored procedures and functions in MySQL the last couple of weeks, and it has been amazing. My work with procedures, functions, and triggers have enabled me to re-work our transaction recording system which should help us a ton when we build out our data analysis API.
 
 I am hoping to get to work on more React stuff tomorrow, but there is a good chance that I am absorbed by my capstone once again. I am having a blast! I just don't want to lose sight of this personal project.
+
+### [R1D33](#r1-d33)
+Been a long time! I have been working on stuff, but it has been infrequent and I haven't updated. Taking a look at my absence, I think I am going to focus this challenge around my capstone turning business, Absolute Task. I just haven't had the time to pursue that side project - all extra time right now is getting funneled into developing this app.
+
+Today I worked on our reporting API. I created some stored procedures/functions to use via the API, and I built some models to represent the data that is included in those reports. I had some issues with the Serverless Framework and API Gateway mapping request IDs properly. Serverless Framework is amazing, but has little hiccups every now and then you have to watch out for.
+
+Tomorrow I will finish the last component for the API before we start building out the frontend for those components. I am going to be working on Unit management, not Reports, so I need to check tomorrow if anything needs to be built for that.
+
+Glad to be back! I hope to keep this up! I need to stop making excuses and start recording my work!
